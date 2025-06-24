@@ -1,26 +1,30 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
-  font-family: 'Gabarito',sans-serif; 
+
+body {
+    font-family: 'Gabarito', sans-serif;
 }
-.navbar{
+
+.navbar {
     background-color: white;
-   padding: 10px;
-   display: flex;
-   justify-content: space-between;
-   border-bottom: solid black 1px;
-   gap: 10px;
-   align-items: center;
-   position: sticky;
-   top: 0;
-   z-index: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
-.navbar__s1__title{
+
+.navbar__s1__title {
     color: #A435F0;
 }
-.navbar__s2{
+
+.navbar__s2 {
     border: solid black 1px;
     padding: 10px;
     border-radius: 30px;
@@ -29,25 +33,30 @@ body{
     gap: 10px;
     align-items: center;
 }
-.navbar__s2 input{
+
+.navbar__s2 input {
     width: 100%;
     border: none;
     font-size: 16px;
     background-color: transparent;
 }
-.navbar__s2 input:focus{
+
+.navbar__s2 input:focus {
     outline: none;
 }
-.navbar__s3{
+
+.navbar__s3 {
     display: flex;
     gap: 30px;
     align-items: center;
 }
-.mylearning{
-position: relative;
-cursor: pointer;
+
+.mylearning {
+    position: relative;
+    cursor: pointer;
 }
-.mylearning__popup{
+
+.mylearning__popup {
     background-color: white;
     border: solid black 1px;
     width: 100px;
@@ -57,33 +66,40 @@ cursor: pointer;
     right: 0;
     display: none;
 }
-.mylearning:hover .mylearning__popup{
+
+.mylearning:hover .mylearning__popup {
     display: block;
 }
-.categories{
+
+.categories {
     padding: 10px;
     display: flex;
     justify-content: space-around;
     border-bottom: solid black 1px;
 }
-.categories p{
+
+.categories p {
     background-color: #A435F0;
     color: white;
     border-radius: 30px;
     padding: 10px;
 }
-.categories p:hover{
+
+.categories p:hover {
     background-color: #EDE5F9;
     color: black;
     border: solid black 1px;
 }
-.sale-image{
+
+.sale-image {
     position: relative;
 }
-.sale-image img{
+
+.sale-image img {
     width: 100%;
 }
-.sale-image__offer{
+
+.sale-image__offer {
     background-color: white;
     width: 300px;
     padding: 10px;
@@ -92,68 +108,82 @@ cursor: pointer;
     top: 10%;
     left: 10%;
 }
-.recommended{
+
+.recommended {
     padding: 10px;
 }
-.course-card{
+
+.course-card {
     width: 350px;
     border: black solid 1px;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
 }
-.course-card img{
+
+.course-card img {
     height: 60%;
     width: 100%;
     border-radius: 10px;
 }
-.recommended__container{
+
+.recommended__container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10px;
 }
-.topics{
+
+.topics {
     padding: 10px;
 }
-.topics__container{
+
+.topics__container {
     display: flex;
     gap: 10px;
     margin-top: 10px;
     flex-wrap: wrap;
 }
-.topics__container p{
+
+.topics__container p {
     border: solid black 1px;
     padding: 10px;
     flex-grow: 1;
     flex-basis: 25%;
 }
-.topics__container p:hover{
+
+.topics__container p:hover {
     background-color: #A435F0;
     color: white;
 }
-.popular{
+
+.popular {
     padding: 10px;
 }
-.popular__container{
+
+.popular__container {
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.footer{
+
+.footer {
     background-color: black;
     padding: 30px;
     color: white;
 }
-.footer__one{
+
+.footer__one {
     display: flex;
     gap: 10px;
 }
-.footer__one p{
+
+.footer__one p {
     margin: 20px;
 }
-.footer__two{
+
+.footer__two {
     margin: 20px;
     display: flex;
     justify-content: space-between;
